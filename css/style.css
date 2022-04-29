@@ -1,0 +1,348 @@
+@charset "UTF-8";
+#header {
+  width: 80%;
+  background-color: aquamarine;
+  margin: 36px auto;
+  border-radius: 8mm;
+  padding: 0 15px;
+  position: fixed;
+  z-index: 5;
+}
+
+#header .icon-res {
+  display: none;
+}
+
+#header .logo {
+  width: 15%;
+}
+
+#header .nav-menu {
+  width: 70%;
+}
+
+#header .nav-menu ul li a {
+  text-decoration: none;
+  padding: 20px 15px;
+  display: block;
+  color: black;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+#header .icon-box {
+  width: 15%;
+}
+
+#header .icon-box a {
+  text-decoration: none;
+  color: black;
+}
+
+#header .icon-box a i {
+  color: green;
+}
+
+#discover {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://ld-wt73.template-help.com/tf/horselin/images/swiper-slide-2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px 0;
+}
+
+#discover .box-text {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+#discover .box-text span {
+  color: #DBD6D1;
+  font-size: 1.5em;
+  font-weight: 600;
+  display: block;
+  margin: 15px 0;
+}
+
+#discover .box-text hr {
+  color: white;
+  width: 25px;
+  margin: auto;
+}
+
+#discover .box-text h1 {
+  color: white;
+  font-size: 9em;
+}
+
+#discover .box-text p {
+  color: #DBD6D1;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 15px 0 5% 0;
+}
+
+#discover .box-text a {
+  background-color: #ACD25F;
+  padding: 20px 40px;
+  border-radius: 8mm;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+#discover .box-text a:hover {
+  background-color: white;
+  color: #181515;
+}
+
+#offer {
+  width: 100%;
+  height: 100vh;
+  padding: 10% 0;
+}
+
+#offer .box-text {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#offer .box-text h1 {
+  font-size: 3em;
+  color: #272323;
+}
+
+#offer .boxes .box-img {
+  width: 100%;
+}
+
+#offer .boxes .box-title {
+  text-align: center;
+  padding: 25px 0;
+}
+
+#offer .boxes .box-title h2 {
+  font-size: 24px;
+  color: #353333;
+  margin-bottom: 10px;
+}
+
+#offer .boxes .box-title a {
+  text-decoration: none;
+  color: #ACD25F;
+  font-weight: bold;
+}
+
+#offer .boxes .box-title a:hover {
+  color: #272323;
+}
+
+#testimonial {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../image/index-img-01-1920x649.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 8% 0;
+}
+
+#testimonial .box-text {
+  margin: 25px auto;
+  width: 60%;
+  text-align: center;
+}
+
+#testimonial .box-text h1 {
+  font-size: 4em;
+  color: white;
+}
+
+#testimonial .box-text p {
+  font-size: 1.5em;
+  margin: 30px 0;
+  color: #E5E5E4;
+}
+
+#testimonial .box-text h3 {
+  color: #ACD25F;
+  font-size: 2em;
+}
+
+#testimonial .box-img {
+  margin: 30px 0;
+}
+
+#testimonial .box-img img {
+  border-radius: 50%;
+}
+
+#plans {
+  width: 100%;
+  height: 100vh;
+  background-color: #F5F5F5;
+  padding: 10% 0;
+}
+
+#plans .box-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#plans .box-title h1 {
+  color: #181616;
+  font-size: 3em;
+}
+
+#plans .box-text h2 {
+  text-align: center;
+  color: #ACD25F;
+  font-size: 2em;
+}
+
+#plans .box-text p {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#plans .box-text p span {
+  font-size: 4em;
+  font-weight: bold;
+}
+
+#plans .box-text ul li {
+  list-style: none;
+  margin: 20px 0;
+  color: dimgray;
+  font-size: 18px;
+}
+
+#plans .box-text ul li:before {
+  content: '✓';
+  color: #ACD25F;
+  margin-right: 10px;
+}
+
+#plans .box-text a {
+  text-decoration: none;
+  text-align: center;
+  color: #272525;
+  padding: 15px 30px;
+  border: 1px solid #272525;
+  border-radius: 8mm;
+}
+
+#plans .box-text a:hover {
+  color: white;
+  background-color: #ACD25F;
+}
+
+@media (max-width: 576px) {
+  #header {
+    width: 100%;
+    border-radius: 0%;
+    margin: 0;
+    padding: 10px 10px;
+  }
+  #header .icon-res {
+    display: block;
+    font-size: 32px;
+  }
+  #header .nav-menu {
+    display: none;
+  }
+  #header .logo {
+    width: 35%;
+    padding: 0 10px;
+  }
+  #header .icon-box {
+    display: none;
+  }
+  #discover {
+    width: 100%;
+  }
+  #discover .box-text {
+    padding: 50px 0;
+    width: 100%;
+  }
+  #discover .box-text span {
+    font-size: 1.5em;
+  }
+  #discover .box-text h1 {
+    font-size: 4.5em;
+    margin: 15px 0;
+  }
+  #discover .box-text p {
+    font-size: 1.3em;
+    margin-bottom: 15%;
+  }
+  #discover .box-text p br {
+    display: none;
+  }
+  #offer {
+    width: 100%;
+  }
+  #offer .box-text h1 {
+    font-size: 2.5em;
+  }
+  #offer .boxes .box-img {
+    width: 100%;
+  }
+  #offer .boxes .box-title h2 {
+    font-size: 20px;
+  }
+  #offer .boxes .box-title a {
+    font-size: 14px;
+  }
+  #testimonial {
+    width: 100%;
+    margin: 10% 0;
+  }
+  #testimonial .box-text {
+    font-family: sans-serif;
+    width: 100%;
+  }
+  #testimonial .box-text h1 {
+    font-size: 2.5em;
+  }
+  #testimonial .box-text p {
+    font-size: 1.5em;
+  }
+  #testimonial .box-text h3 {
+    font-size: 1.7em;
+  }
+  #plans .box-title h1 {
+    font-size: 32px;
+  }
+  #plans .box-text h2 {
+    font-size: 22px;
+  }
+  #plans .box-text p span {
+    font-size: 3em;
+  }
+  #plans .box-text ul li {
+    font-size: 16px;
+  }
+  #plans .box-text a {
+    margin: auto;
+  }
+  #plans hr {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */

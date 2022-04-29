@@ -1,0 +1,348 @@
+#header{
+    width: 80%;
+    background-color: aquamarine;
+    margin: 36px auto;    
+    border-radius: 8mm;
+    padding: 0 15px;
+    position: fixed;
+    z-index: 5;
+    .icon-res{
+        display: none;
+    }
+    .logo{
+        width: 15%;
+    }
+    .nav-menu{
+        width: 70%;
+        ul{
+            li{
+                a{
+                    text-decoration: none;
+                    padding: 20px 15px;
+                    display: block;
+                    color: black;
+                    font-weight: 600;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    .icon-box{
+        width: 15%;
+        a{
+            text-decoration: none;
+            color: black;
+            i{
+                color: green;
+            }
+        }
+    }
+}
+
+// header end
+
+#discover{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://ld-wt73.template-help.com/tf/horselin/images/swiper-slide-2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    .box-text{
+        text-align: center;     
+        width: 80%;  
+        margin: auto; 
+        span{
+            color: #DBD6D1;
+            font-size: 1.5em;
+            font-weight: 600;
+            display: block;
+            margin: 15px 0;
+        }
+        hr{
+            color: white;
+            width: 25px;
+            margin: auto;
+        }
+        h1{
+            color: white;
+            font-size: 9em;
+        }
+        p{
+            color: #DBD6D1;
+            font-size: 1.5em;
+            font-weight: 600;
+            margin: 15px 0 5% 0;
+        }
+        a{
+            background-color: #ACD25F;
+            padding: 20px 40px;
+            border-radius: 8mm;
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.3s ease;
+            &:hover{
+                background-color: white;
+                color: rgb(24, 21, 21);
+            }
+        }
+    }
+}
+
+// discover end
+
+#offer{
+    width: 100%;
+    height: 100vh;
+    padding: 10% 0;
+    .box-text{
+        text-align: center;
+        margin-bottom: 50px;
+        h1{
+            font-size: 3em;
+            color: rgb(39, 35, 35);
+        }
+    }
+    .boxes{
+        .box-img{
+            width: 100%;
+        }
+        .box-title{
+            text-align: center;
+            padding: 25px 0;
+            h2{
+                font-size: 24px;
+                color: rgb(53, 51, 51);
+                margin-bottom: 10px;
+            }
+            a{
+                text-decoration: none;
+                color: #ACD25F;
+                font-weight: bold;
+                &:hover{
+                    color: rgb(39, 35, 35);
+                }
+            }
+        }
+    }
+}
+
+// offer end
+
+#testimonial{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/index-img-01-1920x649.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8% 0;
+    .box-text{
+        margin: 25px auto;
+        width: 60%;
+        text-align: center;
+        h1{
+            font-size: 4em;
+            color: white;
+        }
+        p{
+            font-size: 1.5em;
+            margin: 30px 0;
+            color: #E5E5E4;
+        }
+        h3{
+            color: #ACD25F;
+            font-size: 2em;
+        }
+    }
+    .box-img{
+        margin: 30px 0;
+        img{
+            border-radius: 50%;
+        }
+    }
+}
+
+// testimonial end
+
+#plans{
+    width: 100%;
+    height: 100vh;
+    background-color: #F5F5F5;
+    padding: 10% 0;
+    .box-title{
+        text-align: center;
+        margin-bottom: 30px;
+        h1{
+            color: rgb(24, 22, 22);
+            font-size: 3em;
+        }
+    }
+    .box-text{
+        h2{
+            text-align: center;
+            color: #ACD25F;
+            font-size: 2em;
+        }
+        p{
+            text-align: center;
+            margin-bottom: 50px;
+            span{
+                font-size: 4em;
+                font-weight: bold;
+            }
+        }
+        ul{
+            li{
+                list-style: none;
+                margin:20px 0;
+                color: dimgray;
+                font-size: 18px;
+                &:before{
+                    content: '✓';
+                    color: #ACD25F;
+                    margin-right: 10px;
+                }
+            }
+        }
+        a{
+            text-decoration: none;
+            text-align: center;
+            color: rgb(39, 37, 37);
+            padding: 15px 30px;
+            border: 1px solid rgb(39, 37, 37);
+            border-radius: 8mm;
+            &:hover{
+                color: white;
+                background-color: #ACD25F;
+            }        
+        }
+    }
+    hr{}
+}
+
+
+
+// --------
+
+@media(max-width:576px){
+    #header{
+        width: 100%;
+        border-radius: 0%;
+        margin: 0;
+        padding: 10px 10px;
+        .icon-res{
+            display: block;
+            font-size: 32px;
+        }
+        .nav-menu{
+            display: none;
+        }
+        .logo{
+            width: 35%;
+            padding: 0 10px;
+        }
+        .icon-box{
+            display: none;
+        }
+    }
+
+    #discover{
+        width: 100%;
+        .box-text{
+            padding: 50px 0;
+            width: 100%;
+            span{
+                font-size: 1.5em;
+            }
+            h1{
+                font-size: 4.5em;
+                margin: 15px 0;
+            }
+            p{
+                font-size: 1.3em;
+                margin-bottom: 15%;
+                & br{
+                    display: none;
+                }
+            }
+        }
+    }
+
+    #offer{
+        width: 100%;
+        .box-text{
+            h1{
+                font-size: 2.5em;
+            }
+        }
+        .boxes{
+            .box-img{
+                width: 100%;
+            }
+            .box-title{
+                h2{
+                    font-size: 20px;
+                }
+                a{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    #testimonial{
+        width: 100%;
+        margin: 10% 0;
+        .box-text{
+            font-family: sans-serif;
+            width: 100%;
+            h1{
+                font-size: 2.5em;
+            }
+            p{
+                font-size: 1.5em;
+            }
+            h3{
+                font-size: 1.7em;
+            }
+        }
+        .box-img{
+        }
+    }
+
+    #plans{
+        .box-title{
+            h1{
+                font-size: 32px;    
+            }
+        }
+        .box-text{
+            h2{
+                font-size: 22px;
+            }
+            p{
+                span{
+                    font-size: 3em;
+                }
+            }
+            ul{
+                li{
+                    font-size: 16px;
+                }
+            }
+            a{
+                margin: auto;
+            }
+        }
+        hr{
+            display: none;
+        }
+    }
+}
